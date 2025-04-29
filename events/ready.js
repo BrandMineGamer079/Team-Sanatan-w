@@ -31,7 +31,7 @@ module.exports = {
 
         console.log(`🚀 Version :  v1.2 
 📅 ${new Date().toLocaleString()}
-💻 Developed by: GlaceYT`);
+💻 Developed by: BrandMineGamer`);
         async function updateStatus() {
             const totalUsers = client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0);
             const totalServers = client.guilds.cache.size;
